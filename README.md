@@ -34,6 +34,3 @@ Ivy
 </dependency>
 ```
 
-### JCenter Alternative
-
-
