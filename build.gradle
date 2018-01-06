@@ -98,8 +98,8 @@ artifacts {
 }
 
 bintray {
-	user = "${bintrayUser}"
-	key = "${bintrayKey}"
+	user = project.hasProperty('bintrayUser') ? project.property('bintrayUser') : System.getenv('BINTRAY_USER')
+	key = project.hasProperty('bintrayKey') ? project.property('bintrayKey') : System.getenv('BINTRAY_KEY')
 	configurations = ['archives']
 	publish=true
 	override=true
