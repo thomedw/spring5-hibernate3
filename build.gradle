@@ -98,8 +98,8 @@ artifacts {
 }
 
 bintray {
-	user = ${bintrayUser}
-	key = ${bintrayKey}
+	user = "${bintrayUser}"
+	key = "${bintrayKey}"
 	configurations = ['archives']
 	publish=true
 	override=true
