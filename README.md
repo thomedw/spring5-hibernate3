@@ -7,6 +7,8 @@ Spring 5 [dropped hibernate 3 and 4 support](https://github.com/spring-projects/
 
 ## How to Use
 
+This library is hosted in jcenter. If jcenter does not work, use this repository: `https://dl.bintray.com/thomedw/maven`.
+
 Maven Configuration:
 
 ```xml
@@ -31,3 +33,7 @@ Ivy
   <artifact name='spring5-hibernate3' ext='pom' ></artifact>
 </dependency>
 ```
+
+### JCenter Alternative
+
+
